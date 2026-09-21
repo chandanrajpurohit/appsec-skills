@@ -1,0 +1,22 @@
+{
+  "name": "appsec-agent-skills",
+  "owner": {
+    "name": "Chandan Rajpurohit",
+    "email": "chandanrajpurohit.dev@gmail.com"
+  },
+  "metadata": {
+    "description": "Application Security (AppSec) skills for AI agents",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "appsec-skills",
+      "description": "Collection of framework-specific Application Security skills, runbooks, and audit tools for AI coding agents",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/django"
+      ]
+    }
+  ]
+}
